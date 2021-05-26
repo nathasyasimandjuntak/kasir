@@ -1,0 +1,75 @@
+NB : GANTI DATABASE
+
+== users ==
+id_user
+username
+email
+password
+role 
+
+1. Admin (bisa melakukan semua)
+2. Kasir (Melakukan transaksi + tambah data)
+3. Owner (Check laporan)
+
+== pegawai == 
+id_pegawai
+user_id
+nama
+alamat
+tanggal_lahir
+jenis_kelamin
+tahun_kepegawaian
+status_pegawai
+
+== barang ==
+id_barang
+kode_barang
+nama_barang
+harga
+stok
+
+== transaksi ==
+id_transaksi
+kode_invoice
+total_belanja
+bayar
+kembalian
+
+== barangTransaksi ==
+id_barang_transaksi
+id_transaksi
+id_barang
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Stok terbatas
+2. Produk dengan diskon
+
+	
+
